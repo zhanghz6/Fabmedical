@@ -1,0 +1,51 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2021-11-19 02:36:21.178  INFO 12157 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on fabmedical-xp with PID 12157 (/home/adminfabmedical/Fabmedical/content-api/target/training-1.0-SNAPSHOT.jar started by adminfabmedical in /home/adminfabmedical/Fabmedical/content-api)
+2021-11-19 02:36:21.189  INFO 12157 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2021-11-19 02:36:23.619  INFO 12157 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3001 (http)
+2021-11-19 02:36:23.638  INFO 12157 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-19 02:36:23.639  INFO 12157 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-19 02:36:23.776  INFO 12157 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-19 02:36:23.777  INFO 12157 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2419 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2021-11-19 02:36:25.234  INFO 12157 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-19 02:36:25.650  INFO 12157 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3001 (http) with context path ''
+2021-11-19 02:36:25.662  INFO 12157 --- [           main] c.c.training.TraningApplication          : Started TraningApplication in 5.659 seconds (JVM running for 6.386)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2021-11-19 02:40:32.582  INFO 12405 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on fabmedical-xp with PID 12405 (/home/adminfabmedical/Fabmedical/content-api/target/training-1.0-SNAPSHOT.jar started by adminfabmedical in /home/adminfabmedical/Fabmedical/content-api)
+2021-11-19 02:40:32.596  INFO 12405 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2021-11-19 02:40:35.080  INFO 12405 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3001 (http)
+2021-11-19 02:40:35.100  INFO 12405 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-19 02:40:35.101  INFO 12405 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-19 02:40:35.213  INFO 12405 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-19 02:40:35.214  INFO 12405 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2428 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2021-11-19 02:40:36.610  INFO 12405 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-19 02:40:36.926  INFO 12405 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3001 (http) with context path ''
+2021-11-19 02:40:36.931  INFO 12405 --- [           main] c.c.training.TraningApplication          : Started TraningApplication in 5.559 seconds (JVM running for 6.261)
+2021-11-19 02:49:04.683  INFO 12405 --- [nio-3001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-19 02:49:04.683  INFO 12405 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-19 02:49:04.695  INFO 12405 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-11-19 02:49:04.866  INFO 12405 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-19 02:49:05.161  INFO 12405 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
