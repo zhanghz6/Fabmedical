@@ -1,7 +1,3 @@
-#FROM nginx
-#RUN mkdir /app
-#COPY dist /app
-#COPY nginx.conf /etc/nginx/nginx.conf
 FROM node:dubnium AS build
 WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
@@ -13,3 +9,4 @@ FROM nginx
 RUN mkdir /app
 COPY --from=build /usr/src/app/dist /app
 COPY nginx.conf /etc/nginx/nginx.conf
+

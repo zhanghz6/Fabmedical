@@ -1,10 +1,4 @@
-#FROM openjdk:8-jdk-slim
-#LABEL maintainer=xuepeng
-#
-#COPY target/*.jar   /app.jar
-#
-#ENTRYPOINT ["java","-jar","/app.jar"]
-FROM maven:3.6.1 AS build
+FORM maven:3.6.1 AS build
 WORKDIR /app
 ADD ./pom.xml /app/pom.xml
 ADD ./src /app/src/
@@ -14,3 +8,4 @@ FROM openjdk:8-jre-alpine
 COPY --from=build /app/target/*.jar   /app.jar
 
 ENTRYPOINT ["java","-jar","/app.jar"]
+
