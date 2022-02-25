@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Suffix": {
+            "value": "zzz"
+        },
+        "VirtualMachineAdminUsernameLinux": {
+            "value": "adminfabmedical"
+        },
+        "VirtualMachineAdminPublicKeyLinux": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6/NJSldUhinB48/ExP/2wX1//0Ch2P+Rxi0KEcQEe2Mr4OfZoEcoobDKltJ62ZK1bOU+zdj/D3bNfXK8L8+SS1PK7Pg4c5hmxdL8K4WoKSAFbXDUtNLjyvpCW51hYywwpiphl6vJq/WI0nYLgECYaMzRKhYi3+YIZrAXPlWGxVY18RqmR1We6A52Fy7ocIsMMW+KLCBiL7H8UwscarKjde72t4QWmekQqQBcdEx7hq9QDEjRtqeO02qtfSi60JSMCeucM4HXJlZCf10iuwMgBgR6VMsmUweyj7E0GAhX9t4I3ZH8yxLvM9W4F3j55lOt66U1BJBclxvm0bEH8amDP admin@fabmedical"
+        }
+    }
+}
